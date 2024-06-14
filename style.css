@@ -16,7 +16,6 @@ body {
     background-color: white;
     height: 150px;
     width: 150px;
-
   }
 
   
@@ -25,7 +24,7 @@ body {
     background-size: cover;
     padding: 100px 20px 150px;
     width: 100%;
-    color: black;
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,7 +32,7 @@ body {
   }
   
   .hero::before {
-    content: "CBV Rideshare";
+    content: "CB Strategies";
     position: absolute;
     top: -122px;
     left: 10%;
@@ -67,7 +66,7 @@ body {
   }
   
   .hero-text p {
-    font-size: 16px;
+    font-size: 30px;
     font-weight: 400;
     width: 80%;
   }
@@ -117,7 +116,7 @@ body {
     width: 100%;
     background-color: #18DBFF;
     color: black;
-    font-size: 18px; 
+    font-size: 30px; 
     border: none;
     border-radius: 5px;
     margin-top: 60px; 
@@ -189,7 +188,7 @@ body {
   .problem-statement p {
     color: #fff;
     padding-top: 20px;
-    font-size: 24px;
+    font-size: 30px;
     font-weight: 400;
   }
   
@@ -272,7 +271,7 @@ body {
   .quote p {
     margin: 0 0 10px;
     color: #262626;
-    font-size: 18px;
+    font-size: 30px;
     font-weight: 500;
   }
   
@@ -288,13 +287,13 @@ body {
   
   .pain-point a {
     color: black;
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 400;
   }
   
   .pain-point p {
     color: #606060;
-    font-size: 14px;
+    font-size: 25px;
     font-weight: 400;
   }
   
@@ -308,7 +307,7 @@ body {
   }
   
   .quote {
-    background: rgba(86, 198, 198, 0.25); /* Set background to black */
+    background: rgba(86, 198, 198, 0.15); /* Set background to black */
     color: #000; /* Set text color to white */
     padding: 20px;
     border-radius: 15px; /* Rounded corners */
@@ -326,7 +325,7 @@ body {
     margin: 0 0 10px;
     color: black;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 30px;
   }
   
   .quote .user-info {
@@ -337,8 +336,8 @@ body {
   
   .quote .user-info img {
     border-radius: 50%;
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
     margin-right: 10px;
   }
   
@@ -348,7 +347,7 @@ body {
   }
   
   .quote .user-role {
-    color: #000000;
+    color: #18DBFF;
   }
   
   footer {
@@ -379,7 +378,7 @@ body {
   }
   
   .footer-cta p {
-    font-size: 14px;
+    font-size: 20px;
     margin: 0;
     color: #FFF;
   }
@@ -395,6 +394,7 @@ body {
     padding: 10px 20px;
     cursor: pointer;
     border-radius: 5px;
+    font-size: 25px;
   }
   
   .footer-button button:hover {
@@ -407,7 +407,7 @@ body {
     align-items: center;
     padding: 60px 0;
     background-color: #FFF;
-    color: black;
+    color: #1F5A98;
   }
   
   .footer-content-center {
