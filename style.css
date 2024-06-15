@@ -11,13 +11,91 @@ body {
   .blueWord{
     color: #18DBFF;
   }
-  
-  .nav-bar{
-    background-color: white;
-    height: 150px;
-    width: 150px;
+
+  .jersey-25-regular {
+    font-family: "Jersey 25", sans-serif;
+    font-weight: 400;
+    font-style: normal;
   }
 
+  .font-effect-3d { 
+    font-family: "Audiowide", sans-serif; 
+    font-size: 20px; 
+} 
+
+.home {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #1F5A98;
+  height: 75px;
+  width: auto;
+  z-index: 1000;
+  padding: 10px;
+  padding-top: 15px;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+
+.about {
+  position: fixed;
+  top: 0;
+  left: 30%;
+  background-color: #1F5A98;
+  height: 75px;
+  width: auto;
+  z-index: 1000; 
+  padding: 10px;
+  padding-top: 15px;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+
+.news {
+  position: fixed;
+  top: 0;
+  left: 65%;
+  background-color: #1F5A98;
+  height: 75px;
+  width: auto;
+  z-index: 1000; 
+  padding: 10px;
+  padding-top: 15px;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+
+.contact {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: #1F5A98;
+  height: 75px;
+  width: auto;
+  z-index: 1000; 
+  padding: 10px;
+  padding-top: 15px;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+
+.home:hover, .about:hover, .news:hover, .contact:hover{
+  background-color: #18DBFF;
+  height: 75px;
+  width: auto;
+}
+
+  .nav-bar{
+    background-color: #1F5A98;
+    height: 75px;
+    width: 100%;
+  }
+
+  
   
   .hero {
     background: url('/images/business-1012449_1280.jpg') ;
@@ -31,17 +109,19 @@ body {
     position: relative;
   }
   
-  .hero::before {
+  .hero .font-effect-3d::before {
     content: "CB Strategies";
     position: absolute;
-    top: -122px;
+    top:50px;
     left: 10%;
-    font-size: 2rem;
+    font-size: 65px;
+    font-family: "AudioWide";
     font-weight: bold;
     color: white;
     z-index: 1;
     width: auto;
     background: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%));
+    box-shadow: 0 0 20px 0 blue;
     padding: 20px 10px;
     border-radius: 30px;
   }
@@ -85,7 +165,8 @@ body {
     margin-bottom: 20px;
     color: white;
     font-weight: 600;
-    font-size: 35px; 
+    font-size: 35px;
+    letter-spacing: 2px; 
   }
   
   #joinForm p {
@@ -177,7 +258,8 @@ body {
   }
   
   .problem-statement {
-    background: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%));;
+    background: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%));
+    box-shadow: 0 0 20px 0 blue;
     padding: 60px 20px;
     border-radius: 65px;
     text-align: center;
@@ -195,9 +277,10 @@ body {
   .problem-statement h2 {
     color: #288347;
     padding-top: 20px;
-    font-size: 40px;
+    font-size: 50px;
     border-radius: 20px;
     font-weight: 600;
+    letter-spacing: 5px;
   }
   
   .pain-points,
@@ -212,7 +295,7 @@ body {
   .user-quotes h2 {
     color: #1F5A98;
     font-weight: 600;
-    font-size: 40px;
+    font-size: 80px;
   }
   
   .pain-points {
@@ -278,7 +361,8 @@ body {
   .pain-points h2 {
     color: white;
     font-weight: 600;
-    font-size: 40px;
+    font-size: 80px;
+    letter-spacing: 2px;
   }
   
   .problem-statement h2 {
