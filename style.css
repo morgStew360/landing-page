@@ -24,10 +24,10 @@ body {
 } 
 
 .home {
-  position: fixed;
+  position:absolute;
   top: 0;
   left: 0;
-  background-color: #1F5A98;
+  background-color: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%));
   height: 75px;
   width: auto;
   z-index: 1000;
@@ -35,14 +35,15 @@ body {
   padding-top: 15px;
   text-align: center;
   font-size: 30px;
+  font-family: "Audiowide";
   color: white;
 }
 
 .about {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 30%;
-  background-color: #1F5A98;
+  background-color: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%));
   height: 75px;
   width: auto;
   z-index: 1000; 
@@ -50,14 +51,15 @@ body {
   padding-top: 15px;
   text-align: center;
   font-size: 30px;
+  font-family: "Audiowide";
   color: white;
 }
 
 .news {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 65%;
-  background-color: #1F5A98;
+  background-color: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%));
   height: 75px;
   width: auto;
   z-index: 1000; 
@@ -65,14 +67,15 @@ body {
   padding-top: 15px;
   text-align: center;
   font-size: 30px;
+  font-family: "Audiowide";
   color: white;
 }
 
 .contact {
-  position: fixed;
+  position: absolute;
   top: 0;
   right: 0;
-  background-color: #1F5A98;
+  background-color: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%));
   height: 75px;
   width: auto;
   z-index: 1000; 
@@ -80,6 +83,7 @@ body {
   padding-top: 15px;
   text-align: center;
   font-size: 30px;
+  font-family: "Audiowide";
   color: white;
 }
 
@@ -87,10 +91,11 @@ body {
   background-color: #18DBFF;
   height: 75px;
   width: auto;
+  border-radius: 45%;
 }
 
   .nav-bar{
-    background-color: #1F5A98;
+    background: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%));
     height: 75px;
     width: 100%;
   }
